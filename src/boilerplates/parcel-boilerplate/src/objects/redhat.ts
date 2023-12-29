@@ -1,7 +1,7 @@
 import { IImageConstructor } from '../interfaces/image.interface';
 
 export class Redhat extends Phaser.GameObjects.Image {
-  body: Phaser.Physics.Arcade.Body;
+  body!: Phaser.Physics.Arcade.Body;
 
   constructor(aParams: IImageConstructor) {
     super(aParams.scene, aParams.x, aParams.y, aParams.texture, aParams.frame);

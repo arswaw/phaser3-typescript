@@ -3,6 +3,7 @@
 dist/
 node_modules/
 .cache
+.parcel-cache
 
 # Files
 .DS_STORE
